@@ -9,21 +9,20 @@ Onnx
 
 |___ bin
 
-      |___ inference.cpp
-      
+&nbsp;&nbsp;&nbsp;&nbsp;|___ inference.cpp
+
 |___ src
 
-      |___ init.cpp
-      
-      |___ query.cpp
-      
+&nbsp;&nbsp;&nbsp;&nbsp;|___ init.cpp
+
+&nbsp;&nbsp;&nbsp;&nbsp;|___ query.cpp
+
 |___ include
 
-      |___ inference.h
-      
-      |___ init.h
-      
-      |___query.h
+&nbsp;&nbsp;&nbsp;&nbsp;|___ inference.h
 
+&nbsp;&nbsp;&nbsp;&nbsp;|___ init.h
+
+&nbsp;&nbsp;&nbsp;&nbsp;|___ query.h
 
 I use inference.cpp as the main entrance, accessing other fucntions(currently initialize & query).
