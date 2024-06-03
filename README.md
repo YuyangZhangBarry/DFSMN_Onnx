@@ -5,10 +5,13 @@ An implementation of DFSMN onnx model using C++
 Ubuntu Linux 22.04
 
 # Build the project
-mkdir build && cd build
-// cmake .. -DONNXRUNTIME_DIR=/home/onnx-test/onnx/onnxruntime-linux-x64-1.14.0
-cmake .. -DONNXRUNTIME_DIR=/path/to/onnxruntime
-make
+`mkdir build && cd build`
+
+`// cmake .. -DONNXRUNTIME_DIR=/home/onnx-test/onnx/onnxruntime-linux-x64-1.14.0`
+
+`cmake .. -DONNXRUNTIME_DIR=/path/to/onnxruntime`
+
+`make`
 
 # Project Structure is as follows:(under active development)
 Onnx
