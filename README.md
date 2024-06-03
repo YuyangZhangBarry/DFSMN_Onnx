@@ -13,6 +13,11 @@ Ubuntu Linux 22.04
 
 `make`
 
+# Usage
+`cd build/bin`
+
+`./inference -p /path/to/model.onnx`
+
 # Project Structure is as follows:(under active development)
 Onnx
 
