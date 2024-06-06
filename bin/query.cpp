@@ -4,7 +4,6 @@ using namespace dfsmn;
 
 int main(int argc, char** argv)
 {
-
 	TCLAP::CmdLine cmd("dfsmn",' ',"1.0");
 	TCLAP::ValueArg<std::string>  model_path("p","model-path","Right now the path to the model, change to dir containing the model and configuration file in the future",true,"","string");
 	TCLAP::ValueArg<int>     thread_num("t","thread","number of threads",false,1,"int");
@@ -22,11 +21,9 @@ int main(int argc, char** argv)
 	Model* m = CreateModel(_model_path.c_str(),_thread_num);
 
 	std::cout << "Successfully Loaded Model from : " << _model_path << std::endl;
+    std::cout << "Querying input and output... " << std::endl;
 
-	// Query and make sure model is in fact loaded
-	QueryWithRandomInput(m, 1, 20);
+	QueryModelInfo(m);
 
-	return 0;
-	
+    return 0;
 }
-
