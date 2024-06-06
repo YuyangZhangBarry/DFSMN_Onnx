@@ -20,6 +20,8 @@ Ubuntu Linux 22.04
 
 `./inference -p /path/to/model.onnx`
 
+![inference result](assets/result_inference.png)
+
 # Project Structure is as follows:(under active development)
 Onnx
 
