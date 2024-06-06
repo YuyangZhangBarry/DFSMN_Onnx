@@ -49,6 +49,7 @@ Onnx
 &nbsp;&nbsp;&nbsp;&nbsp;|___ all.h
 
 Right now, inference.cpp serves as a fake inferencing function which constructs a random input of apt size and passes it to the model, getting a fake output.
+
 query.cpp querys on the input and output information of the target onnx model.
 
 Next, we focus on the preprocessing step of the denoising, i.e., how to turn the .wav file into usable tensors of suitable size.
