@@ -16,6 +16,8 @@ Ubuntu Linux 22.04
 
 `./query -p /path/to/model.onnx`
 
+![query result](assets/result_query.png)
+
 `./inference -p /path/to/model.onnx`
 
 # Project Structure is as follows:(under active development)
